@@ -1,0 +1,86 @@
+body {
+  background-color: lightgoldenrodyellow;
+}
+h1#headline {
+  text-align: center;
+}
+
+#VitaminsAndMinerals {
+  background-color: darkseagreen;
+  margin: 20px;
+}
+#KiwiforDieting {
+  background-color: mediumaquamarine;
+  margin: 20px;
+}
+#Sleepsection {
+  background-color: lightgreen;
+  margin: 20px;
+}
+
+.section-image {
+  width: 200px;
+  margin: 20px;
+}
+
+.flex-box {
+  display: flex;
+}
+
+#menu {
+  display: flex;
+  gap: 20px;
+  color: green;
+  justify-content: center;
+  text-align: center;
+}
+
+p {
+  margin: 20px;
+}
+
+header {
+  border: 10px;
+  border-color: black;
+}
+
+.card {
+  width: 200px;
+  height: 320px;
+  margin: 10px;
+  border: 1px solid black;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  text-align: center;
+}
+
+.card > img {
+  width: 100%;
+  max-height: 80px;
+  object-fit: cover;
+}
+
+.container {
+  flex-direction: row;
+  display: flex;
+}
+card p {
+  padding: 10px;
+}
+
+.footer-background {
+  background-image: url(https://healthyfamilyproject.com/wp-content/uploads/2020/05/Kiwi-background.jpg);
+  background-position: center;
+  background-size: auto;
+  padding: 20px;
+  filter: brightness(120%);
+}
+
+#footer-menu {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  font-size: xx-large;
+  font-weight: bold;
+  color: green;
+}

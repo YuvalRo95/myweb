@@ -1,0 +1,18 @@
+body,p{
+    background-color: green;
+}
+
+div p{
+  
+    color: yellow;
+}
+
+.ruppin {
+    background-color: red;
+}
+
+p#gali123{
+
+    background-color: pink;
+}
+
